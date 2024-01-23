@@ -1,0 +1,13 @@
+.container {
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3.7rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+  letter-spacing: 1.27em;
+  text-align: center;
+  margin: 2rem 3.3rem;
+}

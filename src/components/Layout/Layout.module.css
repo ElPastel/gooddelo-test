@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template: 49.3rem 38.3rem / repeat(2, 33.6rem) repeat(
+      auto-fit,
+      minmax(33.6rem, auto)
+    );
+  grid-template-areas:
+    "msg msg therm therm therm"
+    "counter logo therm therm therm";
+  gap: 4rem;
+  justify-content: center;
+  margin: 0 4rem 2.4rem;
+}
